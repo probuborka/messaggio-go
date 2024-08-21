@@ -1,0 +1,133 @@
+{
+	"info": {
+		"_postman_id": "88e73f6a-3008-4e9f-86bd-28d5202f3c00",
+		"name": "github.com/probuborka/messaggio",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34137475"
+	},
+	"item": [
+		{
+			"name": "create msg",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"message\": \"qqqq\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://194.58.126.235:8000/message",
+					"protocol": "http",
+					"host": [
+						"194",
+						"58",
+						"126",
+						"235"
+					],
+					"port": "8000",
+					"path": [
+						"message"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:1111/message",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"message\": \"test\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.56.102:8000/message",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"56",
+								"102"
+							],
+							"port": "8000",
+							"path": [
+								"message"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "statistics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://194.58.126.235:8000/statistics",
+					"protocol": "http",
+					"host": [
+						"194",
+						"58",
+						"126",
+						"235"
+					],
+					"port": "8000",
+					"path": [
+						"statistics"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:1111/message",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"message\": \"test\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.56.102:8000/message",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"56",
+								"102"
+							],
+							"port": "8000",
+							"path": [
+								"message"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
