@@ -1,0 +1,15 @@
+http:
+  port: 8000
+  readTimeout: 10s
+  writeTimeout: 10s
+
+db:
+  user: postgres
+  password: postgres
+  host: db
+  port: 5432
+  db: postgres
+
+kafka:
+  host: kafka
+  port: 9092
